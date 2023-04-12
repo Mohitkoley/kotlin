@@ -16,8 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         }
         if(num.isDigitsOnly()){
-
-            //
+            
             startWhatsApp(num)
         }else {
             Toast.makeText(this, "Please enter a valid number", Toast.LENGTH_SHORT).show()
